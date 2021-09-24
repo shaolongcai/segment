@@ -142,11 +142,11 @@ class Index extends Component {
     render() {
         const segmentImgUrl = this.state.segmentImgUrl
         return (
-            <View>
+            <View className='container'>
                 <AtToast isOpened={this.state.saveToast} hasMask='true' duration='2000' text="保存成功"></AtToast>
                 {/* <SegmentImage files={segmentImgUrl} number={3} /> */}
-                <Image src={ segmentImgUrl}/>
-                <AtButton type='primary' className='downloadBtn' onClick={this.downloadImg.bind(this)}>下载图片</AtButton>
+                <Image src={ segmentImgUrl} className='image' mode='aspectFit' />
+                <AtButton type='primary' className='downloadBtn' onClick={this.downloadImg.bind(this)}>保存图片</AtButton>
             </View>
         )
     }
