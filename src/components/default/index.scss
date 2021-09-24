@@ -1,0 +1,24 @@
+
+.container{
+    text-align: center;
+    overflow:hidden;
+    height: 100vh;
+}
+
+.defaultImg{
+    width: 100px;
+    height: 100px;
+}
+
+.defaultText{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    color: darkgray;
+}
+
+.defaultButton{
+    margin-top: 40px;
+    width: 300px;
+}
